@@ -97,6 +97,16 @@ inquirer.prompt(questions).then(function (data) {
             name: res.data.name
         };
 
-        fs.writeFile("README.md")
-    })
+        fs.writeFile("README.md", generateMarkdown(data, githubInfo), function(err) {
+            if(err){
+                throw err;
+            };
+            console.log('New README.md has generated in directory')
+        });
+    });
+    function init() {
+
+    }
+
+    init();
 })
