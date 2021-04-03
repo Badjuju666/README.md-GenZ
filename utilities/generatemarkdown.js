@@ -17,7 +17,7 @@ function generateMarkdown(data, githubInfo) {
     ## Contribution
     -${data.contribution}
 
-    ##Testing 
+    ## Testing 
     -${data.test}
 
     ## Repostitory
