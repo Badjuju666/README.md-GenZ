@@ -1,7 +1,8 @@
-const fs = require("fs");
+
+const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./utility/generateMarkdown');
-const axios = require("axios");
+const markdown = require('./utility/generateMarkdown');
+const axios = require('axios');
 
 const questions = [
     {
@@ -37,8 +38,8 @@ const questions = [
         name: 'badge',
         message: 'Please provide license information.',
         choices: ['Apache 2.0', 'Boost', 'GNU', 'ISC', 'MIT', 'Mozilla', 'The Artistic License 2.0', 'The Unlicense'],
-        validate: licenseBadge => {
-            if (licenseBadge) {
+        validate: badge => {
+            if (badge) {
                 return true;
             } else {
                 console.log('Please choose a license.');
@@ -86,10 +87,12 @@ const questions = [
     },
 ];
 
-inquirer.prompt(questions).then(function (data) {
-    const queryUrl = "https://api.github.com/users/${data.username}";
+inquirer
+.prompt(questions)
+.then(function(data){
+    const queryUrl = `https://api.github.com/users/${data.username}`;
 
-    axios.get(queryUrl).then(function (res) {
+    axios.get(queryUrl).then(function(res){
         const githubInfo = {
             githubImage: res.data.avatar_url,
             email: res.data.email,
@@ -97,7 +100,7 @@ inquirer.prompt(questions).then(function (data) {
             name: res.data.name
         };
 
-        fs.writeFile("README.md", generateMarkdown(data, githubInfo), function(err) {
+        fs.writeFile("README.md", markdown(data, githubInfo),function(err) {
             if(err){
                 throw err;
             };

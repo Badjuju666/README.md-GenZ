@@ -1,6 +1,7 @@
-function generateMarkdown(data, githubInfo) {
+
+function generateMarkdown(data, githubInfo, badge) {
     return `
-    ##**${data.title}**
+    # **${data.title}**
     - ${badgeStamp(badge)}
 
     ## Description
@@ -36,12 +37,13 @@ function generateMarkdown(data, githubInfo) {
 
     `
 }
+module.exports = generateMarkdown
 
 const sheildsLink = badge => {
     console.log('license badge:' + badge);
 
     if (badge === 'Apacge 2.0') {
-        return "tps://img.shields.io/badge/License-Apache%202.0-blue.svg"
+        return "https://img.shields.io/badge/License-Apache%202.0-blue.svg"
     }  else if (badge === 'Boost') {
         return 'https://img.shields.io/badge/License-Boost%201.0-lightblue.svg'
     
