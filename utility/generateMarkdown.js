@@ -132,10 +132,10 @@ const badgeStamp = badge => {
   return `
   [![badge](${sheildsLink(badge)})](${sourceLink(badge)})
   `
-}
+};
 
 const linkSources = badge => {
   return `
-  [${badge})](${sourceLink(badge)})
+  [${badge}](${sourceLink(badge)})
   `
-}
+};

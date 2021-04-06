@@ -1,8 +1,8 @@
 
 
-# **as**
+# **jo**
 - 
-  [![badge](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+  [![badge](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
   
 
 ## Table of contents
@@ -17,15 +17,15 @@
 
 ## Description
 
-  - sas
+  - joj
 
 ## Installation
 
-            -asa
+            -jo
     
 ## Usage
   
-  -saas
+  -jpj
 
 ## Example 
 
@@ -33,31 +33,31 @@
 
           <br/>
           <br/>
-          ![screenshot](jojo)
+          ![screenshot](pbnj)
 
 ## License
 
   - The app was made under this 
-  [ISC)](https://opensource.org/licenses/ISC)
+  [GNU](https://www.gnu.org/licenses/gpl-3.0)
    license.
 
 ## Contribution
 
-  -[as](https://github.com/as)
+  -[pj](https://github.com/pj)
 
 ## Testing 
   
-  -as
+  -pjnj
 
 ## Repository
 
-  -jojo
+  -pbnj
 
 ## Questions
   -Address any questions or concerns 
   to the contacts below...
                 
-![Imgofme](https://avatars.githubusercontent.com/u/74938789?v=4)
-- Julian Graves
-- [Github Profile](https://github.com/Badjuju666)
-- <jojo>
+![Imgofme](https://avatars.githubusercontent.com/u/6811830?v=4)
+- Peter Benjamin
+- [Github Profile](https://github.com/pbnj)
+- <pbnj>
