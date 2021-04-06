@@ -1,38 +1,61 @@
 
-    # **README.md maker**
-    - 
-        [![License Link]()]()
-        
 
-    ## Description
+# **jojo**
+- 
+  [![badge](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  
 
-    - Need a handy tool to construct professional quality README.md's? Eureka!! This app will guide you step by step and you'll love the results.
+## Table of contents
+  -[Description](#Description)
+  -[Installation](#Installation)
+  -[Usage](#Usage)
+  -[License](#License)
+  -[Contribution](#Contribuition)
+  -[Test](#Testing)
+  -[Repository](#Repositry)
+  -[Github](#Github)
 
-    ## Installation
+## Description
 
-                -run npm i 
+  - jojo
+
+## Installation
+
+            -jojo
     
-    ## Usage
-    -node index.js then fill out all requested information.
+## Usage
+  
+  -jojo
 
-    ## Contribution
-    -n/a
+## Example 
+  - This is what to expect...
+          <br/>
+          <br/>
+          ![screenshot](jojo)
 
-    ## Testing 
-    -test it by using it.
+## License
 
-    ## Repostitory
-    -https://github.com/Badjuju666/README.md-Gen
+  - The app was made under this [!(
+  [![badge]()]()
+  )] license.
 
-    ## Questions
+## Contribution
 
-                Address any questions or concerns 
-                to the contacts below...
+  -[jojo](https://github.com/jojo)
+
+## Testing 
+  
+  -jojo
+
+## Repostitory
+
+  -jojo
+
+## Questions
+  -Address any questions or concerns 
+  to the contacts below...
                 
-                ![Imgofme](https://avatars.githubusercontent.com/u/74938789?v=4)
-                -Julian Graves
-                -[Github Profile](https://github.com/Badjuju666)
-                -<null>
-    
-
-    
+![Imgofme](https://avatars.githubusercontent.com/u/40888?v=4)
+- Kiko Taganashi
+- [Github Profile](https://github.com/jojo)
+- <null>

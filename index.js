@@ -68,7 +68,7 @@ const questions = [
     {
         type: "input",
         name: "contribution",
-        message: "Please provide the contributing parties' usernames or emails."
+        message: "Please provide the contributing parties' github username"
     },
     {
         type: "input",
@@ -83,7 +83,12 @@ const questions = [
     {
         type: "input",
         name: "repo",
-        message: "What is your repo link?"
+        message: "What is your repo link?",
+    },
+    {
+        type: "input",
+        name: "screenshot",
+        message: "If you'd like to show off a screenshot, do it here with a link."
     },
 ];
 
@@ -107,9 +112,8 @@ inquirer
             console.log('New README.md has generated in directory')
         });
     });
-    function init() {
 
-    }
+});
+function init() {}
 
-    init();
-})
+init();
