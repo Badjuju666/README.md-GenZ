@@ -1,8 +1,8 @@
 
 
-# **jojo**
+# **as**
 - 
-  [![badge](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![badge](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
   
 
 ## Table of contents
@@ -10,44 +10,46 @@
   -[Installation](#Installation)
   -[Usage](#Usage)
   -[License](#License)
-  -[Contribution](#Contribuition)
+  -[Contribution](#Contribution)
   -[Test](#Testing)
-  -[Repository](#Repositry)
-  -[Github](#Github)
+  -[Repository](#Repository)
+  -[Questions & Contact Information](#Questions)
 
 ## Description
 
-  - jojo
+  - sas
 
 ## Installation
 
-            -jojo
+            -asa
     
 ## Usage
   
-  -jojo
+  -saas
 
 ## Example 
-  - This is what to expect...
+
+  ###  Outcome product...
+
           <br/>
           <br/>
           ![screenshot](jojo)
 
 ## License
 
-  - The app was made under this [!(
-  [![badge]()]()
-  )] license.
+  - The app was made under this 
+  [ISC)](https://opensource.org/licenses/ISC)
+   license.
 
 ## Contribution
 
-  -[jojo](https://github.com/jojo)
+  -[as](https://github.com/as)
 
 ## Testing 
   
-  -jojo
+  -as
 
-## Repostitory
+## Repository
 
   -jojo
 
@@ -55,7 +57,7 @@
   -Address any questions or concerns 
   to the contacts below...
                 
-![Imgofme](https://avatars.githubusercontent.com/u/40888?v=4)
-- Kiko Taganashi
-- [Github Profile](https://github.com/jojo)
-- <null>
+![Imgofme](https://avatars.githubusercontent.com/u/74938789?v=4)
+- Julian Graves
+- [Github Profile](https://github.com/Badjuju666)
+- <jojo>

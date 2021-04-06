@@ -1,5 +1,5 @@
 
-function generateMarkdown(data, githubInfo) {
+function generateMarkdown(data, github) {
   return `
 
 # **${data.title}**
@@ -10,10 +10,10 @@ function generateMarkdown(data, githubInfo) {
   -[Installation](#Installation)
   -[Usage](#Usage)
   -[License](#License)
-  -[Contribution](#Contribuition)
+  -[Contribution](#Contribution)
   -[Test](#Testing)
-  -[Repository](#Repositry)
-  -[Github](#Github)
+  -[Repository](#Repository)
+  -[Questions & Contact Information](#Questions)
 
 ## Description
 
@@ -28,14 +28,16 @@ function generateMarkdown(data, githubInfo) {
   -${data.usage}
 
 ## Example 
-  - This is what to expect...
+
+  ###  Outcome product...
+
           <br/>
           <br/>
-          ![screenshot](${data.screenshot})
+          ![screenshot](${data.screen})
 
 ## License
 
-  - The app was made under this [!(${badgeStamp(sourceLink)})] license.
+  - The app was made under this ${linkSources(data.badge)} license.
 
 ## Contribution
 
@@ -45,7 +47,7 @@ function generateMarkdown(data, githubInfo) {
   
   -${data.test}
 
-## Repostitory
+## Repository
 
   -${data.repo}
 
@@ -53,10 +55,10 @@ function generateMarkdown(data, githubInfo) {
   -Address any questions or concerns 
   to the contacts below...
                 
-![Imgofme](${githubInfo.githubImage})
-- ${githubInfo.name}
-- [Github Profile](${githubInfo.profile})
-- <${githubInfo.email}>
+![Imgofme](${github.githubImg})
+- ${github.name}
+- [Github Profile](${github.profile})
+- <${data.email}>
 `
 };
 
@@ -64,7 +66,7 @@ module.exports = generateMarkdown
 
 
 const sheildsLink = badge => {
-  console.log('license badge: ' + badge);
+  console.log('License badge: ' + badge);
   if (badge === 'Apacge 2.0') {
       return "https://img.shields.io/badge/License-Apache%202.0-blue.svg"
   }  else if (badge === 'Boost') {
@@ -95,7 +97,7 @@ const sheildsLink = badge => {
 }
 
 const sourceLink = badge => {
-  console.log('license source: ' + badge);
+  console.log('License source: ' + badge);
   if (badge === 'Apache 2.0') {
       return "https://opensource.org/licenses/Apache-2.0"
   
@@ -129,5 +131,11 @@ const sourceLink = badge => {
 const badgeStamp = badge => {
   return `
   [![badge](${sheildsLink(badge)})](${sourceLink(badge)})
+  `
+}
+
+const linkSources = badge => {
+  return `
+  [${badge})](${sourceLink(badge)})
   `
 }

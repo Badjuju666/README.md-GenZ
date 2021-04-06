@@ -68,7 +68,7 @@ const questions = [
     {
         type: "input",
         name: "contribution",
-        message: "Please provide the contributing parties' github username"
+        message: "Please provide the contributing parties' github username."
     },
     {
         type: "input",
@@ -78,7 +78,12 @@ const questions = [
     {
         type: "input",
         name: "username",
-        message: "What is your github user name?",
+        message: "What is your Github username?",
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is your Email address?"
     },
     {
         type: "input",
@@ -87,7 +92,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "screenshot",
+        name: "screen",
         message: "If you'd like to show off a screenshot, do it here with a link."
     },
 ];
@@ -98,14 +103,14 @@ inquirer
     const queryUrl = `https://api.github.com/users/${data.username}`;
 
     axios.get(queryUrl).then(function(res){
-        const githubInfo = {
-            githubImage: res.data.avatar_url,
+        const github = {
+            githubImg: res.data.avatar_url,
             email: res.data.email,
             profile: res.data.html_url,
             name: res.data.name
         };
 
-        fs.writeFile("README.md", markdown(data, githubInfo),function(err) {
+        fs.writeFile("README.md", markdown(data, github),function(err) {
             if(err){
                 throw err;
             };
