@@ -1,8 +1,8 @@
 
 
-# **jo**
+# **README.md Creator!**
 - 
-  [![badge](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+  [![badge](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
   
 
 ## Table of contents
@@ -17,15 +17,15 @@
 
 ## Description
 
-  - joj
+  - Need a handy tool to construct professional quality README.md's? Eureka!! This app will guide you step by step and you'll love the results.
 
 ## Installation
 
-            -jo
+            -Run $ npm i 
     
 ## Usage
   
-  -jpj
+  -answer questions after running $ node index.js
 
 ## Example 
 
@@ -33,31 +33,31 @@
 
           <br/>
           <br/>
-          ![screenshot](pbnj)
+          ![screenshot](https://github.com/Badjuju666/README.md-GenZ/blob/main/Screen%20Shot%202021-04-05%20at%205.40.29%20PM.png?raw=true)
 
 ## License
 
   - The app was made under this 
-  [GNU](https://www.gnu.org/licenses/gpl-3.0)
+  [The Unlicense](http://unlicense.org/)
    license.
 
 ## Contribution
 
-  -[pj](https://github.com/pj)
+  -[jojo](https://github.com/jojo)
 
 ## Testing 
   
-  -pjnj
+  -Run as instructed and check for the newly made file in your directory/folder.
 
 ## Repository
 
-  -pbnj
+  -https://github.com/Badjuju666/README.md-GenZ/
 
 ## Questions
   -Address any questions or concerns 
   to the contacts below...
                 
-![Imgofme](https://avatars.githubusercontent.com/u/6811830?v=4)
-- Peter Benjamin
-- [Github Profile](https://github.com/pbnj)
-- <pbnj>
+![Imgofme](https://avatars.githubusercontent.com/u/74938789?v=4)
+- Julian Graves
+- [Github Profile](https://github.com/Badjuju666)
+- <juliangraves96@gmail.com>
