@@ -31,7 +31,7 @@
 ## Example 
 ### - Outcome product...
 
-![pics](https://raw.githubusercontent.com/Badjuju666/README.md-GenZ/main/Screen.png?token=AR3XTJP4SZYGNMWLHE7VW7LANUV5E)
+![pics](https://github.com/Badjuju666/README.md-GenZ/blob/main/Screen.png)
 
 ### - Check out my walkthrough video
 
