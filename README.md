@@ -33,6 +33,10 @@
 
 ![pics](https://raw.githubusercontent.com/Badjuju666/README.md-GenZ/main/Screen.png?token=AR3XTJP4SZYGNMWLHE7VW7LANUV5E)
 
+### - Check out my walkthrough video
+
+![vids](https://drive.google.com/file/d/1gTryomKm9NhxWHo9kH_oUFR7zLN2GA7C/view?usp=sharing)
+
 ## License
 
   - The app was made under this 
