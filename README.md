@@ -35,7 +35,7 @@
 
 ### - Check out my walkthrough video
 
-![vids](https://drive.google.com/file/d/1gTryomKm9NhxWHo9kH_oUFR7zLN2GA7C/view?usp=sharing)
+[vids](https://drive.google.com/file/d/1gTryomKm9NhxWHo9kH_oUFR7zLN2GA7C/view?usp=sharing)
 
 ## License
 
