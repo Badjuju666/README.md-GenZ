@@ -9,6 +9,7 @@ function generateMarkdown(data, github) {
   -[Description](#Description)
   -[Installation](#Installation)
   -[Usage](#Usage)
+  -[Example](#Example)
   -[License](#License)
   -[Contribution](#Contribution)
   -[Test](#Testing)
@@ -29,11 +30,9 @@ function generateMarkdown(data, github) {
 
 ## Example 
 
-  ###  Outcome product...
+  ### - Outcome product...
 
-          <br/>
-          <br/>
-          ![screenshot](${data.screen})
+![pics](${data.screen})
 
 ## License
 
@@ -67,7 +66,7 @@ module.exports = generateMarkdown
 
 const sheildsLink = badge => {
   console.log('License badge: ' + badge);
-  if (badge === 'Apacge 2.0') {
+  if (badge === 'Apache 2.0') {
       return "https://img.shields.io/badge/License-Apache%202.0-blue.svg"
   }  else if (badge === 'Boost') {
       return 'https://img.shields.io/badge/License-Boost%201.0-lightblue.svg'
