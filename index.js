@@ -88,13 +88,13 @@ const questions = [
     {
         type: "input",
         name: "repo",
-        message: "What is your repo link?",
+        message: "Please add the link to project repo.",
     },
     {
         type: "input",
         name: "screen",
         message: "If you'd like to show off a screenshot, do it here with a link."
-    },
+    }
 ];
 
 inquirer

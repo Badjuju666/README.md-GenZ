@@ -3,7 +3,7 @@ function generateMarkdown(data, github) {
   return `
 
 # **${data.title}**
-- ${badgeStamp(data.badge)}
+ ${badgeStamp(data.badge)}
 
 ## Table of contents
   -[Description](#Description)
@@ -21,12 +21,12 @@ function generateMarkdown(data, github) {
   - ${data.description}
 
 ## Installation
-
-            -${data.installation}
+#### **-Run**
+          $ ${data.installation}
     
 ## Usage
-  
-  -${data.usage}
+#### **-Run**
+          $ ${data.usage}
 
 ## Example 
 

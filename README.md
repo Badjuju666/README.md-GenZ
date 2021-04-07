@@ -1,8 +1,8 @@
 
 
-# **Cat App**
-- 
-  [![badge](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# **README.md Creator!**
+
+  [![badge](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
   
 
 ## Table of contents
@@ -18,39 +18,38 @@
 
 ## Description
 
-  - cat lover behold!
+  -  Need a handy tool to construct professional quality README.md's? Eureka!! This app will guide you step by step and you'll love the results!
 
 ## Installation
-
-            -purrr
+#### **-Run**
+          $ npm i
     
 ## Usage
-  
-  -rub belly >:3
+#### **-Run**
+          $ node index.js
 
 ## Example 
+### - Outcome product...
 
-  ### - Outcome product...
-
-![pics](https://brainhub.eu/blog/wp-content/uploads/2020/02/weird-websites-web-apps-catbounce.png)
+![pics](https://raw.githubusercontent.com/Badjuju666/README.md-GenZ/main/Screen.png?token=AR3XTJP4SZYGNMWLHE7VW7LANUV5E)
 
 ## License
 
   - The app was made under this 
-  [MIT](https://opensource.org/licenses/MIT)
+  [The Unlicense](http://unlicense.org/)
    license.
 
 ## Contribution
 
-  -[jojo](https://github.com/jojo)
+  -[Badjuju666](https://github.com/Badjuju666)
 
 ## Testing 
   
-  -test
+  -Run as instructed then check project folder for new README.md for your app.
 
 ## Repository
 
-  -link
+  -https://github.com/Badjuju666/README.md-GenZ/
 
 ## Questions
   -Address any questions or concerns 
